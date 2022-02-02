@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 1.2rem 2rem;
+    margin: 0.8rem 0 3.2rem 0;
+    display: inline-block;
+    border: 0.1rem solid #ccc;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+.img {
+    text-align: center;
+    margin: 2.4rem 0 1.2rem 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.data {
+    padding: 1.6rem;
+}
+button {
+    background-color: #c7b93e;
+    border: none;
+    color: white;
+    padding: 1rem 2.4rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #9b9030;
+    transition: all 1s ease;
+}
